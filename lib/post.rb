@@ -10,7 +10,7 @@ class Post
 binding.pry
   def author_name
 
-    @author 
+    @author.name 
 
   end
 
