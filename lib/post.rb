@@ -9,8 +9,11 @@ class Post
   end
 
   def author_name
-
-    self.author
+    if @author != nil
+      self.author.name 
+    else 
+      nil 
+    end 
 
   end
 
