@@ -7,10 +7,10 @@ class Post
     @author = nil
 
   end
-binding.pry
+
   def author_name
 
-    @author.name 
+    self.author
 
   end
 
