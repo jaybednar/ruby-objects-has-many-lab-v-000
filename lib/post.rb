@@ -10,7 +10,7 @@ class Post
 binding.pry
   def author_name
 
-    self.author.name ||
+    self.author.name 
 
   end
 
