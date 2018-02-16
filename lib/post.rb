@@ -7,9 +7,9 @@ class Post
     @author = nil
 
   end
-
+binding.pry
   def author_name
-    binding.pry
+
     self.author.name ||
 
   end
